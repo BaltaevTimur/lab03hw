@@ -119,7 +119,7 @@ $ cd hello_world_application
 ```sh
 $ cat > CMakeLists.txt <<EOF
 cmake_minimum_required(VERSION 3.4)
-project(formatter_ex)
+project(hello_world)
 set(CMAKE_CXX_STANDART 11)
 set(CMAKE_CXX_STANDART_REQUIRED ON)
 set(CMAKE_CURRENT_SOURCE_DIR /home/timur/BaltaevTimur/workspace/lab03hw/)
@@ -157,7 +157,7 @@ $ cmake --build _build
 ### CMakeLists.txt
 ```sh
 cmake_minimum_required(VERSION 3.4)
-project(formatter_ex)
+project(hello_world)
 set(CMAKE_CXX_STANDART 11)
 set(CMAKE_CXX_STANDART_REQUIRED ON)
 set(CMAKE_CURRENT_SOURCE_DIR /home/timur/BaltaevTimur/workspace/lab03hw/)
